@@ -1,22 +1,3 @@
-# static-website
+# acb.gg
 
-## CLI Commands
-
-``` bash
-# install dependencies
-npm install
-
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# test the production build locally
-npm run serve
-
-# run tests with jest and enzyme
-npm run test
-```
-
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+This repository contains all of the code for my static website, acb.gg. It is a small app written in Preact which uses the [https://ant.design](ant design) system.
