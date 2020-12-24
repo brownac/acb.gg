@@ -5,7 +5,7 @@ import { ThemeSwitcherProvider } from 'react-css-theme-switcher';
 
 import * as URLS from '../const/urls';
 import Switcher from './switcher';
-// Code-splitting is automated for `routes` directory
+import Socials from './socials';
 import Home from '../routes/home';
 
 const env = process.env.NODE_ENV;
@@ -27,6 +27,7 @@ const App = () => {
 					subTitle={<Switcher />}
 				/>
 				<Home />
+				<Socials />
 			</div>
 		</ThemeSwitcherProvider>
 	);

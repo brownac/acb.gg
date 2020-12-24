@@ -1,0 +1,9 @@
+.socials {
+    position:fixed;
+    right: 2rem;
+    bottom: 2rem;
+}
+
+.link {
+    text-transform: capitalize;
+}

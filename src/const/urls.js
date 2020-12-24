@@ -11,7 +11,7 @@ export const DARK_THEME = {
 };
 
 export const SOCIALS = {
-    email: 'mailto:austincurtisbrown@gmail.com',
     linkedin: 'https://www.linkedin.com/in/austin-brown-8a2b62b4/',
     instagram: 'https://www.instagram.com/oy__vey/',
+    facebook: 'https://www.facebook.com/austin.brown.965/',
 };
