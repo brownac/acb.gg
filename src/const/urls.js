@@ -1,5 +1,5 @@
-export const PROFILE_IMG = 'https://s3.us-east-2.amazonaws.com/acb.gg/images/IMG_0404.JPG';
-export const RESUME = 'https://s3.us-east-2.amazonaws.com/acb.gg/static/AustinBrownResume.pdf';
+export const PROFILE_IMG = 'https://s3.us-east-2.amazonaws.com/acb.gg/images/IMG_0450.JPG';
+export const RESUME = 'https://s3.us-east-2.amazonaws.com/acb.gg/static/AustinResume.pdf';
 export const GITHUB = 'https://github.com/brownac';
 export const LIGHT_THEME = {
     development: '../public/light-theme.css',
