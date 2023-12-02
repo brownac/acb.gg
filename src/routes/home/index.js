@@ -15,8 +15,8 @@ const Home = () => (
 		<div class={style.content}>
 			<img class={style.profileImage} src={URLS.PROFILE_IMG} alt="austin" />
 			<h3>{home.greeting}</h3>
-			<p>{home.currentWork}</p>
-			<p>You can <a href={URLS.RESUME} download>{home.downloadResume}</a>, <a href={URLS.GITHUB}>{home.viewMyWork}</a>, or <a href={URLS.SOCIALS.email}>{home.contactMe}</a></p>
+			<p>I'm a software engineer located in New York City. Currently building <a href="https://www.klaviyo.com/product-reviews">Klaviyo Reviews.</a></p>
+			<p>You can <a href={URLS.RESUME} download>{home.downloadResume}</a> or <a href={URLS.SOCIALS.email}>{home.contactMe}</a></p>
 		</div>
 	</div>
 );
