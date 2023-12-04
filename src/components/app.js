@@ -2,11 +2,9 @@ import { h } from "preact";
 import Router from "preact-router";
 import "antd/dist/reset.css";
 
-import { PageHeader } from "@ant-design/pro-components";
 import { ThemeSwitcherProvider } from "react-css-theme-switcher";
 
 import * as URLS from "../const/urls";
-import Switcher from "./switcher";
 import Home from "../routes/home";
 import Blog from "../routes/blog";
 
@@ -18,13 +16,11 @@ const themes = {
 
 const App = () => {
   return (
-    <ThemeSwitcherProvider themeMap={themes} defaultTheme="light">
+    <ThemeSwitcherProvider themeMap={themes} defaultTheme="dark">
       <div id="app">
-        <PageHeader
-          className="site-page-header"
-          title="Austin Brown"
-          subTitle={<Switcher />}
-        />
+      <div style={{ position: 'fixed', top: '1rem', left: '1rem' }}>
+        <h1>Austin Brown</h1>
+      </div>
         <Router>
           <Home path="/" />
           <Blog path="/blog" />

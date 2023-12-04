@@ -1,0 +1,13 @@
+.blog {
+	min-height: 100%;
+	width: 100%;
+}
+
+.content {
+  margin-top: 64px;
+  margin-left: 1rem;
+}
+
+.link {
+	text-transform: capitalize;
+}

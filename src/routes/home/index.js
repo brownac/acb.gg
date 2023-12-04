@@ -5,12 +5,6 @@ import { home } from "../../copy";
 import * as URLS from "../../const/urls";
 import Socials from "../../components/socials";
 
-const ContactDropdown = () => (
-  <Dropdown overlay={menu}>
-    <p>{home.contactMe}</p>
-  </Dropdown>
-);
-
 const Home = () => (
   <div class={style.home}>
     <div class={style.content}>
@@ -26,6 +20,9 @@ const Home = () => (
           {home.downloadResume}
         </a>{" "}
         or <a href={URLS.SOCIALS.email}>{home.contactMe}</a>
+      </p>
+      <p>
+        New: check out my <a href="/blog">blog!</a>
       </p>
     </div>
     <Socials />
