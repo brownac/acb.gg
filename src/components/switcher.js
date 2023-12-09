@@ -4,7 +4,7 @@ import { useThemeSwitcher } from 'react-css-theme-switcher';
 import { Switch } from 'antd';
 
 const Switcher = () => {
-    const [isDarkMode, setIsDarkMode] = useState(false);
+    const [isDarkMode, setIsDarkMode] = useState(true);
     const { switcher, status, themes } = useThemeSwitcher();
 
     const toggleTheme = (isChecked) => {

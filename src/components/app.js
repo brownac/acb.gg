@@ -18,9 +18,9 @@ const App = () => {
   return (
     <ThemeSwitcherProvider themeMap={themes} defaultTheme="dark">
       <div id="app">
-      <div style={{ position: 'fixed', top: '1rem', left: '1rem' }}>
-        <h1>Austin Brown</h1>
-      </div>
+        <div style={{ position: 'absolute', top: '1rem', left: '1rem' }}>
+          <h1>Austin Brown</h1>
+        </div>
         <Router>
           <Home path="/" />
           <Blog path="/blog" />
