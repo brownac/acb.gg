@@ -5,6 +5,7 @@ import { Remarkable } from "remarkable";
 import style from "./style.css";
 
 const FILENAMES = [
+  "2023-12-23",
   "2023-12-3",
 ];
 
