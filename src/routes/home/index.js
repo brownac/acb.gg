@@ -22,7 +22,7 @@ const Home = () => (
         or <a href={URLS.SOCIALS.email}>{home.contactMe}</a>
       </p>
       <p>
-        New: check out my <a href="/blog">blog!</a>
+        New: check out my <a href="https://blog.acb.gg" target="_blank">blog!</a>
       </p>
     </div>
     <Socials />
