@@ -4,7 +4,6 @@ import "antd/dist/reset.css";
 import "../public/dark-theme.css";
 
 import Home from "../routes/home";
-import Blog from "../routes/blog";
 
 const App = () => {
   return (
@@ -14,7 +13,6 @@ const App = () => {
       </div>
       <Router>
         <Home path="/" />
-        <Blog path="/blog" />
       </Router>
     </div>
   );
