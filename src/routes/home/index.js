@@ -12,7 +12,7 @@ const Home = () => (
       <h3>{home.greeting}</h3>
       <p>
         I'm a software engineer located in New York City, currently building{" "}
-        <a href="https://www.klaviyo.com/product-reviews">Klaviyo Reviews.</a>
+        <a target="_blank" href="https://default.com">Default.</a>
       </p>
       <p>
         You can{" "}
