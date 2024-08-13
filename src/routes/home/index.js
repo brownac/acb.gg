@@ -11,8 +11,7 @@ const Home = () => (
       <img class={style.profileImage} src={URLS.PROFILE_IMG} alt="austin" />
       <h3>{home.greeting}</h3>
       <p>
-        I'm a software engineer located in New York City, currently building{" "}
-        <a target="_blank" href="https://default.com">Default.</a>
+        I'm a software engineer located in New York City.
       </p>
       <p>
         You can{" "}
@@ -20,9 +19,6 @@ const Home = () => (
           {home.downloadResume}
         </a>{" "}
         or <a href={URLS.SOCIALS.email}>{home.contactMe}</a>
-      </p>
-      <p>
-        New: check out my <a href="https://blog.acb.gg" target="_blank">blog!</a>
       </p>
     </div>
     <Socials />
