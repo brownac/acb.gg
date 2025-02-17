@@ -12,7 +12,6 @@ export const DARK_THEME = {
 
 export const SOCIALS = {
     linkedin: 'https://www.linkedin.com/in/austin-brown-8a2b62b4/',
-    instagram: 'https://www.instagram.com/oy__vey/',
-    facebook: 'https://www.facebook.com/austin.brown.965/',
+    instagram: 'https://www.instagram.com/nitsuanworb/',
     email: 'mailto:brownac@hey.com',
 };

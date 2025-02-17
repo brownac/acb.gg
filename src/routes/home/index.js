@@ -11,7 +11,7 @@ const Home = () => (
       <img class={style.profileImage} src={URLS.PROFILE_IMG} alt="austin" />
       <h3>{home.greeting}</h3>
       <p>
-        I'm a software engineer located in New York City.
+        I'm a software engineer located in New York City, currently working at <a href="https://klaviyo.com" target="_blank">Klaviyo</a>.
       </p>
       <p>
         You can{" "}
