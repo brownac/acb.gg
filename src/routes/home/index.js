@@ -15,7 +15,7 @@ const Home = () => (
       </p>
       <p>
         You can{" "}
-        <a href={URLS.RESUME} download>
+        <a target="_blank" href="/assets/AustinResume-Current.pdf" download="AustinResume-Current.pdf">
           {home.downloadResume}
         </a>{" "}
         or <a href={URLS.SOCIALS.email}>{home.contactMe}</a>

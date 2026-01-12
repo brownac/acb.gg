@@ -1,5 +1,5 @@
 export const PROFILE_IMG = 'https://s3.us-east-2.amazonaws.com/acb.gg/images/IMG_0450.JPG';
-export const RESUME = 'https://s3.us-east-2.amazonaws.com/acb.gg/static/AustinResume-Current.pdf';
+export const RESUME = '/assets/AustinResume-Current.pdf';
 export const GITHUB = 'https://github.com/brownac';
 export const LIGHT_THEME = {
     development: '../public/light-theme.css',
@@ -13,5 +13,5 @@ export const DARK_THEME = {
 export const SOCIALS = {
     linkedin: 'https://www.linkedin.com/in/austin-brown-8a2b62b4/',
     instagram: 'https://www.instagram.com/nitsuanworb/',
-    email: 'mailto:brownac@hey.com',
+    email: 'mailto:austincurtisbrown@gmail.com',
 };
